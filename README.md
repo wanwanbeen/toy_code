@@ -1,2 +1,2 @@
-# toy_codes
-Toy codes - numerical solvers
+# toy_code
+Toy code - numerical solvers
