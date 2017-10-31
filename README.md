@@ -21,7 +21,7 @@
 
 #### Run
 
-For example: x0 = 2, x1 = 0, x2 = 2, y0 = 4, y1 = -1, y2 = 1, z0 = 3, z1 = 1, z2 = 1.5.
+* For example: x0 = 2, x1 = 0, x2 = 2, y0 = 4, y1 = -1, y2 = 1, z0 = 3, z1 = 1, z2 = 1.5.
 
 ```
 $ g++ -o mc.o Solver_MonteCarlo.cpp 
@@ -41,7 +41,7 @@ $ ./mc.o 1000000 2 0 2 4 -1 1 3 1 1.5
 
 #### Run
 
-For example: w1 = 9, w2 = 1, w3 = 2, val = 3. 
+* For example: w1 = 9, w2 = 1, w3 = 2, val = 3. 
 
 ```
 $ g++ -o newton.o Solver_Newton.cpp 
