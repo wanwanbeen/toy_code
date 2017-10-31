@@ -48,4 +48,20 @@ $ g++ -o strassen.o Strassen_Solver.cpp
 $ ./strassen.o 
 ```
 
+### 4. Partial Diffusion Equation
+
+#### Files
+
+* ```PDE_string.cpp```:  solve partial differential equation for a vibrating string.
+* ```PDE_heat.cpp```: solve partial differential equation for a heat.
+
+#### Run
+
+```
+$ g++ -o pde_string.o PDE_string.cpp 
+$ ./pde_string.o 
+$ g++ -o pde_heat.o PDE_heat.cpp 
+$ ./pde_heat.o 
+```
+
 
