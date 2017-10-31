@@ -1,8 +1,8 @@
 # toy_code
 
-#### 1) ```MonteCarlo_Solver.cpp```
+#### 1. ```MonteCarlo_Solver.cpp```
 
-**Description**
+##### Description #####
 
 Monte Carlo solution of integral equations in the form of:
 
