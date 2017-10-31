@@ -2,7 +2,8 @@
 
 ## Files
 
-* ```MonteCarlo_Solver.cpp```: 
+## * ```MonteCarlo_Solver.cpp```: Monte Carlo Solution of Integral Equations
+
 
 ### Run
 
