@@ -6,12 +6,7 @@
 
 Monte Carlo solution of integral equations in the form of:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
-
-\begin{equation}
-I = sum_k Xk 
-\end{equation}
-$ \sum_{\forall i}{x_i^{2}} $
+![equation](http://latex.codecogs.com/gif.latex?I%3D%5Cint_%7Bx_1%7D%5E%7Bx_2%7D%5Cint_%7By_1%7D%5E%7By_2%7D%5Cint_%7Bz_1%7D%5E%7Bz_2%7Dx%5E%7Bx_0%7Dy%5E%7By_0%7D&plus;%7Bz_0%7De%5E%7B-z%7Ddxdydz) 
 
 #### Run
 
