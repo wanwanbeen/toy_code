@@ -1,13 +1,13 @@
 # toy_code
 
-**```MonteCarlo_Solver.cpp```: Monte Carlo Solution of Integral Equations**
+#### ```MonteCarlo_Solver.cpp```
 
-* Solver of integral equations in the form of:
+**Description**
+Monte Carlo solution of integral equations in the form of:
 
-* **Run**
+**Run**
 ```
-$ git clone https://github.com/wanwanbeen/ct_lung_segmentation
-$ cd ct_lung_segmentation
-$ python main.py
+$ g++ -o mc.o MonteCarlo_Solver.cpp 
+$ ./mc.o 1000000 2 0 2 1 -1 1 1 1 1.5
 ```
 
