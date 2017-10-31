@@ -6,7 +6,9 @@
 
 Monte Carlo solution of integral equations in the form of:
 
-$$ I = sum_k Xk $$
+\begin{equation}
+I = sum_k Xk 
+\end{equation}
 
 **Run**
 
