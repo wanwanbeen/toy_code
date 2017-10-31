@@ -9,8 +9,9 @@ Monte Carlo solution of integral equations in the form of:
 \begin{equation}
 I = sum_k Xk 
 \end{equation}
+$ \sum_{\forall i}{x_i^{2}} $
 
-**Run**
+#### Run
 
 ```
 $ g++ -o mc.o MonteCarlo_Solver.cpp 
