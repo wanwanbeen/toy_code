@@ -11,6 +11,7 @@ Monte Carlo solution of integral equations in the form of:
 #### Run
 
 For example:
+
 ![equation](http://latex.codecogs.com/gif.latex?%24%24I%3D%5Cint_%7B0%7D%5E%7B2%7D%5Cint_%7B-1%7D%5E%7B1%7D%5Cint_%7B1%7D%5E%7B1.5%7Dx%5E%7B2%7Dy%5E%7B4%7D&plus;%7B3%7De%5E%7B-z%7Ddxdydz%24%24)
 
 ```
