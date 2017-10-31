@@ -18,7 +18,7 @@ For example:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cdpi%7B120%7D%20%5CLARGE%20I%20%3D%20%5Cint_%7B0%7D%5E%7B2%7D%5Cint_%7B-1%7D%5E%7B1%7D%5Cint_%7B1%7D%5E%7B1.5%7Dx%5E%7B2%7Dy%5E%7B4%7D&plus;3e%5E%7B-z%7Ddxdydz)
+![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cdpi%7B100%7D%20%5CLARGE%20I%20%3D%20%5Cint_%7B0%7D%5E%7B2%7D%5Cint_%7B-1%7D%5E%7B1%7D%5Cint_%7B1%7D%5E%7B1.5%7Dx%5E%7B2%7Dy%5E%7B4%7D&plus;3e%5E%7B-z%7Ddxdydz)
 
 ```
 $ g++ -o mc.o MonteCarlo_Solver.cpp 
