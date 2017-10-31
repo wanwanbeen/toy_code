@@ -1,6 +1,6 @@
 # toy_code
 
-#### ```MonteCarlo_Solver.cpp```: Monte Carlo Solution of Integral Equations
+* **```MonteCarlo_Solver.cpp```: Monte Carlo Solution of Integral Equations**
 
 
 **Run**
