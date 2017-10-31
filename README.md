@@ -12,7 +12,7 @@
 
 #### Files
 
-* ```MonteCarlo_Solver.cpp```: Monte Carlo solution of integral equations in the form:
+* ```Solver_MonteCarlo.cpp```: Monte Carlo solution of integral equations in the form:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -24,7 +24,7 @@
 For example: x0 = 2, x1 = 0, x2 = 2, y0 = 4, y1 = -1, y2 = 1, z0 = 3, z1 = 1, z2 = 1.5.
 
 ```
-$ g++ -o mc.o MonteCarlo_Solver.cpp 
+$ g++ -o mc.o Solver_MonteCarlo.cpp 
 $ ./mc.o 1000000 2 0 2 4 -1 1 3 1 1.5
 ```
 
@@ -32,7 +32,7 @@ $ ./mc.o 1000000 2 0 2 4 -1 1 3 1 1.5
 
 #### Files
 
-* ```Newton_Solver.cpp```: Newton solver of t, s.t. f(t) = val, where f(t) is in the form:
+* ```Solver_Newton.cpp```: Newton solver of t, s.t. f(t) = val, where f(t) is in the form:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -44,7 +44,7 @@ $ ./mc.o 1000000 2 0 2 4 -1 1 3 1 1.5
 For example: w1 = 9, w2 = 1, w3 = 2, val = 3. 
 
 ```
-$ g++ -o newton.o Newton_Solver.cpp 
+$ g++ -o newton.o Solver_Newton.cpp 
 $ ./newton.o  9 1 2 3
 ```
 
@@ -52,14 +52,14 @@ $ ./newton.o  9 1 2 3
 
 #### Files
 
-* ```Strassen_Solver.cpp```: Strassen solver of matrix multiplication C = A * B.
+* ```Solver_Strassen.cpp```: Strassen solver of matrix multiplication C = A * B.
 * ```a.txt```: contains matrix A.
 * ```b.txt```: contains matrix B.
 
 #### Run
 
 ```
-$ g++ -o strassen.o Strassen_Solver.cpp 
+$ g++ -o strassen.o Solver_Strassen.cpp 
 $ ./strassen.o 
 ```
 
@@ -67,15 +67,15 @@ $ ./strassen.o
 
 #### Files
 
-* ```PDE_string.cpp```:  solve partial differential equation for a vibrating string.
-* ```PDE_heat.cpp```: solve partial differential equation for a heat.
+* ```Solver_PDE_string.cpp```:  solve partial differential equation for a vibrating string.
+* ```Solver_PDE_heat.cpp```: solve partial differential equation for a heat.
 
 #### Run
 
 ```
-$ g++ -o pde_string.o PDE_string.cpp 
+$ g++ -o pde_string.o Solver_PDE_string.cpp 
 $ ./pde_string.o 
-$ g++ -o pde_heat.o PDE_heat.cpp 
+$ g++ -o pde_heat.o Solver_PDE_heat.cpp 
 $ ./pde_heat.o 
 ```
 
