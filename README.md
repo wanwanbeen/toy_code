@@ -12,7 +12,7 @@
 
 #### Files
 
-* ```MonteCarlo_Solver.cpp```: Monte Carlo solution of integral equations in the form of:
+* ```MonteCarlo_Solver.cpp```: Monte Carlo solution of integral equations in the form:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -33,7 +33,27 @@ $ g++ -o mc.o MonteCarlo_Solver.cpp
 $ ./mc.o 1000000 2 0 2 4 -1 1 3 1 1.5
 ```
 
-### 3. Strassen Solver Solver
+### 3. Newton Solver
+
+#### Files
+
+* ```Newton_Solver.cpp```: Newton solver of t, s.t. f(t) = val, where f(t) is in the form:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cdpi%7B100%7D%20%5CLARGE%20I%20%3D%20%5Cint_%7Bx_1%7D%5E%7Bx_2%7D%5Cint_%7By_1%7D%5E%7By_2%7D%5Cint_%7Bz_1%7D%5E%7Bz_2%7Dx%5E%7Bx_0%7Dy%5E%7By_0%7D&plus;z_0e%5E%7B-z%7Ddxdydz)
+
+#### Run
+
+For example: w1 = 9, w2 = 1, w3 = 2, val = 3. 
+
+```
+$ g++ -o newton.o Newton_Solver.cpp 
+$ ./newton.o  9 1 2 3
+```
+
+### 4. Strassen Solver Solver
 
 #### Files
 
@@ -48,7 +68,7 @@ $ g++ -o strassen.o Strassen_Solver.cpp
 $ ./strassen.o 
 ```
 
-### 4. Partial Diffusion Equation
+### 5. Partial Diffusion Equation
 
 #### Files
 
