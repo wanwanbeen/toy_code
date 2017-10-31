@@ -1,6 +1,14 @@
 # toy_code
 
-### 1. Monte Carlo Solver
+### 1. Gaussian Mixture Model
+
+#### Files
+* ```GMM_EM.m```: expectation maximization for Gaussian mixture model.
+* ```GMM_VI.m```: variational inference for Gaussian mixture model.
+* ```GMM_MCMC.m```: Gibbs sampling for Gaussian mixture model.
+* ```data.mat```: input sample.
+
+### 2. Monte Carlo Solver
 
 #### Files
 
@@ -25,10 +33,19 @@ $ g++ -o mc.o MonteCarlo_Solver.cpp
 $ ./mc.o 1000000 2 0 2 4 -1 1 3 1 1.5
 ```
 
-### 2. Gaussian Mixture Model
+### 3. Strassen Solver Solver
 
 #### Files
-* ```GMM_EM.m```: expectation maximization for Gaussian mixture model.
-* ```GMM_VI.m```: variational inference for Gaussian mixture model.
-* ```GMM_MCMC.m```: Gibbs sampling for Gaussian mixture model.
-* ```data.mat```: input sample.
+
+* ```Strassen_Solver.cpp```: Strassen solver of matrix multiplication C = A * B.
+* ```a.txt```: contains matrix A.
+* ```b.txt```: contains matrix B.
+
+#### Run
+
+```
+$ g++ -o strassen.o Strassen_Solver.cpp 
+$ ./strassen.o 
+```
+
+
