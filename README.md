@@ -25,4 +25,10 @@ $ g++ -o mc.o MonteCarlo_Solver.cpp
 $ ./mc.o 1000000 2 0 2 4 -1 1 3 1 1.5
 ```
 
+### 2. Gaussian Mixture Model
 
+#### Files
+* ```GMM_EM.m```: expectation maximization for Gaussian mixture model.
+* ```GMM_VI.m```: variational inference for Gaussian mixture model.
+* ```GMM_MCMC.m```: Gibbs sampling for Gaussian mixture model.
+* ```data.mat```: input sample.
