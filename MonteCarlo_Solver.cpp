@@ -5,8 +5,7 @@ Monte Carlo Solution of Integral Equations
 Jie Yang 2014
 
 inputs: 
-niter = 
-        number of iterations
+niter = number of iterations
 x0, x1, x2, y0, y1, y2, z0, z1, z2 = 
         integral parameters
         - I = triple integral of (x^x0*y^y0+z0*e^(-z))
